@@ -3,7 +3,7 @@
 
 ## Step 1: Download Course Materials for Week-3
 
-1. Visit the [course webpage](https://gwu-csci1010.archived2023.github.io).
+1. Visit the [course webpage](https://gwu-csci1010.github.io/archived2023.github.io/).
 2. Click on the "Schedule" tab to access the course schedule.
 
 ## Step 2: Download In-Class Python Exercise & HW2 for Week-3
