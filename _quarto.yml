@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "CSCI 1010 [Fall 2023]"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: "Getting Started"
+        menu:
+          - href: install-editor.qmd
+          - href: in-class-exercise.qmd
+            text: "Download and Locate the Course Material"
+      - about.qmd
+      - schedule.qmd
+      - policies.qmd
+      - instructor.qmd
+    search: true
+  favicon: "images/CS1010.png"
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+
+
+

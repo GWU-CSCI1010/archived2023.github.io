@@ -1,0 +1,396 @@
+---
+title: "Schedule"
+format: html
+---
+
+Sample class schedule [*week-by-week*]
+
+::: {.callout-warning appearance="simple"}
+**The course schedule is subject to changes during the semester.**
+:::
+
+
+<style>
+        .thumbnail {
+            width: 100px; 
+            cursor: pointer;
+        }
+
+        #popupContainer {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            justify-content: center;
+            align-items: center;
+        }
+
+        #popupImage {
+            max-width: 80%;
+            max-height: 80%;
+        }
+    </style>
+
+<table class="table table-hover w-auto">
+  <colgroup>
+    <col style="width:3%">
+    <col style="width:35%">
+    <col style="width:30%">
+    <col style="width:32%">
+  </colgroup> 
+  <thead>
+    <tr class="table-primary">
+      <th scope="col">Date</th>
+      <th scope="col">Topic(s)</th>
+      <th scope="col">$\mu$-LABs and Assignment(s) due</th>
+      <th scope="col">Extended Lab Activities + Download Files</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-active">
+      <th scope="row">Week 1 [10/06/2023]</th>
+      <td>
+        <ul>
+          <li>Overview of CS1010 by **Prof. Kartik Bulusu**</li>
+          <li>Introduction to Computer Science Department by [**Prof. Rebecca Hwa**](https://cs.engineering.gwu.edu/rebecca-hwa)</li>
+          <li>Introduction to Raspberry Pi and Python programming by **Prof. Kartik Bulusu**</li>
+        </ul>  
+      </td>
+      <td>
+        <ul>
+          <li>Python programming using [Anaconda Python Distribution](www.anaconda.com)</li>
+          <li>In-class Raspberry Pi Lab (**Blinking LEDs**)</li>
+          <li>HW 1 Assigned</li>
+        </ul>
+      </td>
+      <td>
+        <li>In-class Python Exercise  <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week1.zip" download>![Download button](images/file-black.png){width=28}</a></li>
+        <li>HW1 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/HW1.zip" download>![Download button](images/file-black.png){width=28}</li>
+      </td>
+      <tr>
+      <th scope="row">Week 2 [10/13/2023]</th>
+      <td colspan="3">
+        <ul>
+          Fall Break, **NO CLASS!**
+        </ul>
+    </td>
+    </tr>
+    <tr class="table-active">
+      <th scope="row">Week 3 [10/20/2023]</th>
+      <td>
+        <ul>
+          <li>Very brief introduction to matrices by **Prof. Kartik Bulusu**</li>
+          <li>Introduction to Computer Grpahics by [**Prof. James Hahn**](https://www.cs.seas.gwu.edu/james-hahn) ([*Institute of Computer Graphics*](https://icg.gwu.edu))</li>
+          <li>Slide deck by [**Prof. James Hahn**](https://www.cs.seas.gwu.edu/james-hahn) <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/CSCI_1010.10.20.2023.pdf" download>![Download button](images/file-black.png){width=28}</a></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Handling data arrays and plotting data using Python</li> 
+          <li>In-class Raspberry Pi Lab (Ultrasonic cacophony)</li> 
+          <li>**HW 1 due date (Tuesday, October 17, 2023)**</li>
+          <li>HW 2 Assigned</li>
+          <li>_Distribution of Scores for **HW1**_</li> 
+            <img src="images/histograms/HW1.png" alt="HW1" class="thumbnail" onclick="displayImage('images/histograms/HW1.png')">
+            <div id="popupContainer" onclick="hidePopup()"><img src="" alt="HW1" id="popupImage"></div>
+            <script>
+                function displayImage(imageSrc) {
+                    var popupImage = document.getElementById('popupImage');
+                    popupImage.src = imageSrc;
+                    document.getElementById('popupContainer').style.display = 'flex';
+                }
+                function hidePopup() {
+                    document.getElementById('popupContainer').style.display = 'none';
+                }
+                document.getElementById('popupContainer').addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        hidePopup();
+                    }
+                });
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') {
+                        hidePopup();
+                    }
+                });
+            </script>
+        </ul>
+      </td>
+      <td>
+        <li>In-class Python Exercise & HW2 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week3.zip" download>![Download button](images/file-black.png){width=28}</a></li>
+      </td> 
+    <tr>
+      <th scope="row">Week 4 [10/27/2023]</th>
+      <td>
+        <ul>
+          <li>Short walk into Python Libraries</li>
+          <li>Cryptography and Secure Computation by [**Prof. Arkady Yerukhimovich**](https://www2.seas.gwu.edu/~arkady/)</li>
+          <li>Introduction to Augmented and Virtual Reality Technologies by [**Prof. Hurriyet Ok**](https://www.linkedin.com/in/hurriyetok/)</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Learning about dataframe using Pandas in Python</li>
+          <li>In-class Raspberry Pi Lab using senseHats</li>
+          <li>**HW 2 due date (Saturday, October 28, 2023 5:00 PM)**</li>
+          <li>HW 3 Assigned</li>
+          <li>_Distribution of Scores for **HW2**_</li> 
+            <img src="images/histograms/HW2.png" alt="HW2" class="thumbnail" onclick="displayImage('images/histograms/HW2.png')">
+            <div id="popupContainer" onclick="hidePopup()"><img src="" alt="HW2" id="popupImage"></div>
+            <script>
+                function displayImage(imageSrc) {
+                    var popupImage = document.getElementById('popupImage');
+                    popupImage.src = imageSrc;
+                    document.getElementById('popupContainer').style.display = 'flex';
+                }
+                function hidePopup() {
+                    document.getElementById('popupContainer').style.display = 'none';
+                }
+                document.getElementById('popupContainer').addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        hidePopup();
+                    }
+                });
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') {
+                        hidePopup();
+                    }
+                });
+            </script>
+        </ul>
+      </td>
+      <td>
+        <li>HW3 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week4.zip" download>![Download button](images/file-black.png){width=28}</a></li>
+        <li>**COVID-19 Data Analysis Project** <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/COVID_Project.zip" download>![Download button](images/file-black.png){width=28}</a></li>
+      </td>
+    </tr>
+    <tr class="table-active">
+      <th scope="row">Week 5 [11/03/2023]</th>
+      <td>
+        <ul>
+          <li>Quick Recap on Plotting with Python (Get the .ipynb file here![Download button](images/file-black.png){width=28})</li>
+          <li>Computer Vision by [**Prof. Robert Pless**](https://www.cs.seas.gwu.edu/robert-pless)</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>In-class Raspberry Pi Lab using Pi NOIR camera</li>
+          <li>**HW 3 due date (Friday, November 03, 2023)**</li>
+          <li>HW 4 Assigned</li>
+          <li>_Distribution of Scores for **HW3**_</li> 
+            <img src="images/histograms/HW3.png" alt="HW3" class="thumbnail" onclick="displayImage('images/histograms/HW3.png')">
+            <div id="popupContainer" onclick="hidePopup()"><img src="" alt="HW3" id="popupImage"></div>
+            <script>
+                function displayImage(imageSrc) {
+                    var popupImage = document.getElementById('popupImage');
+                    popupImage.src = imageSrc;
+                    document.getElementById('popupContainer').style.display = 'flex';
+                }
+                function hidePopup() {
+                    document.getElementById('popupContainer').style.display = 'none';
+                }
+                document.getElementById('popupContainer').addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        hidePopup();
+                    }
+                });
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') {
+                        hidePopup();
+                    }
+                });
+            </script>
+        </ul>
+      </td>
+      <td>
+        <li>In-class Python Exercise & HW4 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week5.zip" download>![Download button](images/file-black.png){width=28}</a></li>
+      </td> 
+    </tr>
+    <tr>
+      <th scope="row">Week 6 [11/10/2023]</th>
+      <td>
+        <ul>
+          <li>A Brief Introduction to Natural Language Processing (NLP) by [**Prof. Rebecca Hwa**](https://cs.engineering.gwu.edu/rebecca-hwa)</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>In-class Raspberry Pi Lab on Image Encryption and Decryption</li>
+          <li>**COVID-19 Data Analysis Project due date (Friday, November 10, 2023)**</li>
+          <li>**HW 4 due date (Friday, November 10, 2023)**</li>
+          <li>HW 5 Assigned</li>
+          <li>_Distribution of Scores for **HW4**_</li> 
+            <img src="images/histograms/HW4.png" alt="HW2" class="thumbnail" onclick="displayImage('images/histograms/HW4.png')">
+            <div id="popupContainer" onclick="hidePopup()"><img src="" alt="HW4" id="popupImage"></div>
+            <script>
+                function displayImage(imageSrc) {
+                    var popupImage = document.getElementById('popupImage');
+                    popupImage.src = imageSrc;
+                    document.getElementById('popupContainer').style.display = 'flex';
+                }
+                function hidePopup() {
+                    document.getElementById('popupContainer').style.display = 'none';
+                }
+                document.getElementById('popupContainer').addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        hidePopup();
+                    }
+                });
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') {
+                        hidePopup();
+                    }
+                });
+            </script>
+        <li>_Distribution of Scores for **Guided Python Project**_</li> 
+            <img src="images/histograms/COVID_Project.png" alt="HW2" class="thumbnail" onclick="displayImage('images/histograms/COVID_Project.png')">
+            <div id="popupContainer" onclick="hidePopup()"><img src="" alt="COVID_Project" id="popupImage"></div>
+            <script>
+                function displayImage(imageSrc) {
+                    var popupImage = document.getElementById('popupImage');
+                    popupImage.src = imageSrc;
+                    document.getElementById('popupContainer').style.display = 'flex';
+                }
+                function hidePopup() {
+                    document.getElementById('popupContainer').style.display = 'none';
+                }
+                document.getElementById('popupContainer').addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        hidePopup();
+                    }
+                });
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') {
+                        hidePopup();
+                    }
+                });
+            </script>
+        </ul>
+      </td>
+      <td>
+      <li>In-class Python Exercise & HW5 <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/Week6.zip" download>![Download button](images/file-black.png){width=28}</a></li>
+      </td>
+    </tr>
+    <tr class="table-active">
+      <th scope="row">WSW Survey [11/13/2023]</th>
+      <td colspan="3">
+        **Working Style Workout Survey** released (<u>_due Wednesday, Nov. 15, 2023 at 11:59 PM_</u>), to place students in groups for the Final Project.
+    </td>
+    </tr>
+    <tr>
+      <th scope="row">Week 7 [11/17/2023]</th>
+      <td>
+        <ul>
+          <li>Cloud Computing by [**Prof. Tim Wood**](https://www.seas.gwu.edu/timothy-wood)</li>
+          <li>Secure Autonomous Systems by [**Prof. Gabe Parmer**](https://www.seas.gwu.edu/gabriel-parmer) (Get the slide deck here <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/research_intro_1010_23-2.pdf" download>![Download button](images/file-black.png){width=28}</a>)</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Choose your RPi project</li>
+          <li>**HW 5 due date (Friday, November 17, 2023)**</li>
+          <li>_Distribution of Scores for **HW5**_</li> 
+            <img src="images/histograms/HW5.png" alt="HW2" class="thumbnail" onclick="displayImage('images/histograms/HW5.png')">
+            <div id="popupContainer" onclick="hidePopup()"><img src="" alt="HW5" id="popupImage"></div>
+            <script>
+                function displayImage(imageSrc) {
+                    var popupImage = document.getElementById('popupImage');
+                    popupImage.src = imageSrc;
+                    document.getElementById('popupContainer').style.display = 'flex';
+                }
+                function hidePopup() {
+                    document.getElementById('popupContainer').style.display = 'none';
+                }
+                document.getElementById('popupContainer').addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        hidePopup();
+                    }
+                });
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') {
+                        hidePopup();
+                    }
+                });
+            </script>
+        </ul>
+      </td>
+      <td>
+        <li>Team building excersice _(Same + Different)_</li>
+        <li>Team building debrief</li>
+        <li>Spec out the project in breakouts</li>
+      </td>
+    </tr>
+    <tr class="table-active">
+      <th scope="row">Week 8 [11/24/2023]</th>
+      <td colspan="3">
+        <ul>
+          **Thanksgiving Break**
+        </ul>
+    </td>
+    </tr>
+    <tr>
+      <th scope="row">Week 9 [12/01/2023]</th>
+      <td>
+        <ul>
+          <li>Role of Professional advisors in SEAS-advising Office by **Lisa (Drusedum) Redman** and **Jonathan Yoo** - [_Office of Undergraduate Student Services and Advising (SEAS Advising)_](https://www.seas.gwu.edu/meet-your-academic-advisor)</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Raspberry Pi Final project workshop with Mentor guidance</li>
+          <li>Group Work Guidelines ![Download button](images/file-black.png){width=28}</li>
+        </ul>
+      </td>
+      <td>
+        <li>Path Statement Sample![Download button](images/file-black.png){width=28}</li>
+        <li>Path Statement Template![Download button](images/file-black.png){width=28}</li>
+        </td>
+    </tr>
+    <tr class="table-active">
+      <th scope="row">Final Project deliverables Due Date [12/05/2023]</th>
+      <td colspan="3">
+        <div id="final-project"></div>
+        <ul>
+          Please submit your all your Final Project deliverables using this **form** before **11:59 PM** on <u>**December 05, 2023**</u>.
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Week 10 [12/08/2023]</th>
+      <td>
+        Presentations from various Student Organizations:
+          <li>[**WiCS - Women in Computer Science**](https://gwwics.github.io/)</li>
+          <li>[**GW Robotics**](https://gw-robotics.github.io/)</li>
+          <li>[**George Hacks**](https://www.instagram.com/george.hacks/?hl=en)</li>
+          <li>[**SEASSPAN**](https://www.seas.gwu.edu/seasspan) - <a href="mailto:seasspan@gwu.edu">seasspan@gwu.edu</a></li>
+          <li>[**E-Council**](https://www.cs.seas.gwu.edu/student-organizations) - <a href="mailto:ecouncil@gwu.edu">ecouncil@gwu.edu</a></li>
+          <li>[**AIAA**](https://www.cs.seas.gwu.edu/student-organizations) - <a href="mailto:gwaiaa@gwu.edu">gwaiaa@gwu.edu</a></li>
+          <li>[**GW BAJA**](https://gwubaja.wixsite.com/race)</li>
+          <li>[**EPS and ACM**](https://www.cs.seas.gwu.edu/student-organizations) - <a href="mailto:acm@gwu.edu">acm@gwu.edu</a></li>
+      </td>
+      <td>
+        <ul>
+          <li>Group Presentations for Final Project</li> 
+        </ul>
+      </td>
+      <td>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+:::{.callout-note appearance="default"}
+**In accordance with university policy, the final exams will be given during the final exam period and not the last week of the semester.**
+:::
+
+
+<br><br>
+<footer>
+  <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
+  Author: Kartik Bulusu<br>
+  Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br>
+  &copy; 2023 All rights reserved</small></small></small></small></p>
+</footer>
