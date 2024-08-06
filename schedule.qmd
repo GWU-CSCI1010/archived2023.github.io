@@ -61,7 +61,7 @@ Sample class schedule [*week-by-week*]
       </td>
       <td>
         <ul>
-          <li>Python programming using [Anaconda Python Distribution](www.anaconda.com)</li>
+          <li>Python programming using [Anaconda Python Distribution](https://www.anaconda.com)</li>
           <li>In-class Raspberry Pi Lab (**Blinking LEDs**)</li>
           <li>HW 1 Assigned</li>
         </ul>
