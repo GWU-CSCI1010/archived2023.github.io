@@ -24,7 +24,7 @@ Additional Learning Outcomes:
 
 ## Course format 
 - Lectures on the fundamentals of Raspberry Pi programming using Python programming language, sensors and automation. 
-- $\mu-labs$: Hands-on and guided activities in a laboratory setting. 
+- Hands-on and guided activities in a laboratory setting. 
 - Guest lectures from academic experts in the field of computer science
 - Interactive quizzes and instant concept checks
 - Individual and/or group assignments and projects
