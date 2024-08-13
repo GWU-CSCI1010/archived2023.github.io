@@ -26,6 +26,9 @@ In your CSCI1010 class, you'll use a combination of Anaconda, Jupyter, and VS Co
 
 These tools will empower you throughout your CSCI1010 journey, helping you write, execute, and collaborate on code effectively. Select the appropriate option for your operating system, follow the installation instructions, and dive into the world of coding with confidence!
 
+---
+
+<small><small>*Some of the content on this page was generated using ChatGPT.*</small></small>
 
 <br>
 <footer>
