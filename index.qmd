@@ -56,7 +56,7 @@ title: "Computer Science Orientation"
 Get the syllabus here.
 
 ### Course description
-This is an introductory course designed for first year engineering students majoring in computer science. The course will introduce the students to basics, emerging concepts, and applications of Computer Science, to computing and modeling using Python and projects using Raspberry Pi (Model: 4B). Course will consist of
+This is an introductory course designed for first year engineering students majoring in computer science. The course will introduce the students to basics, emerging concepts, and applications of Computer Science, to computing and modeling using Python. Course will consist of
 
 1. lectures on the various disciplines in Computer Science,
 2. hands-on Python programming exercises and

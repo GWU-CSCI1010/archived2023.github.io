@@ -44,8 +44,8 @@ Sample class schedule [*week-by-week*]
   <thead>
     <tr class="table-primary">
       <th scope="col">Date</th>
-      <th scope="col">Topic(s)</th>
-      <th scope="col">$\mu$-LABs and Assignment(s) due</th>
+      <th scope="col">Topic(s) discussed</th>
+      <th scope="col">Labs and Assignment(s) due</th>
       <th scope="col">Extended Lab Activities + Download Files</th>
     </tr>
   </thead>
@@ -54,9 +54,9 @@ Sample class schedule [*week-by-week*]
       <th scope="row">Week 1 [10/06/2023]</th>
       <td>
         <ul>
-          <li>Overview of CS1010 by **Prof. Kartik Bulusu**</li>
+          <li>Overview of CS1010</li>
           <li>Introduction to Computer Science Department by [**Prof. Rebecca Hwa**](https://cs.engineering.gwu.edu/rebecca-hwa)</li>
-          <li>Introduction to programming by **Prof. Kartik Bulusu**</li>
+          <li>Introduction to programming</li>
         </ul>  
       </td>
       <td>
@@ -82,7 +82,7 @@ Sample class schedule [*week-by-week*]
       <th scope="row">Week 3 [10/20/2023]</th>
       <td>
         <ul>
-          <li>Very brief introduction to matrices by **Prof. Kartik Bulusu**</li>
+          <li>Very brief introduction to matrices</li>
           <li>Introduction to Computer Grpahics by [**Prof. James Hahn**](https://www.cs.seas.gwu.edu/james-hahn) ([*Institute of Computer Graphics*](https://icg.gwu.edu))</li>
           <li>Slide deck by [**Prof. James Hahn**](https://www.cs.seas.gwu.edu/james-hahn) <a href = "https://github.com/GWU-CSCI1010/gwu-csci1010.github.io/raw/main/download/CSCI_1010.10.20.2023.pdf" download>![Download button](images/file-black.png){width=28}</a></li>
         </ul>
@@ -125,7 +125,7 @@ Sample class schedule [*week-by-week*]
       <th scope="row">Week 4 [10/27/2023]</th>
       <td>
         <ul>
-          <li>Short walk into Python Libraries</li>
+          <li>Short intro to Python Libraries</li>
           <li>Cryptography and Secure Computation by [**Prof. Arkady Yerukhimovich**](https://www2.seas.gwu.edu/~arkady/)</li>
           <li>Introduction to Augmented and Virtual Reality Technologies by [**Prof. Hurriyet Ok**](https://www.linkedin.com/in/hurriyetok/)</li>
         </ul>
@@ -339,7 +339,7 @@ Sample class schedule [*week-by-week*]
       </td>
       <td>
         <ul>
-          <li>Raspberry Pi Final project workshop with Mentor guidance</li>
+          <li>Final project workshop with Mentor guidance</li>
           <li>Group Work Guidelines ![Download button](images/file-black.png){width=28}</li>
         </ul>
       </td>

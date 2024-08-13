@@ -68,35 +68,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -236,10 +207,10 @@ window.Quarto = {
 Date
 </th>
 <th scope="col">
-Topic(s)
+Topic(s) discussed
 </th>
 <th scope="col">
-<span class="math inline">\(\mu\)</span>-LABs and Assignment(s) due
+Labs and Assignment(s) due
 </th>
 <th scope="col">
 Extended Lab Activities + Download Files
@@ -254,13 +225,13 @@ Week 1 [10/06/2023]
 <td>
 <ul>
 <li>
-Overview of CS1010 by <strong>Prof.&nbsp;Kartik Bulusu</strong>
+Overview of CS1010
 </li>
 <li>
 Introduction to Computer Science Department by <a href="https://cs.engineering.gwu.edu/rebecca-hwa"><strong>Prof.&nbsp;Rebecca Hwa</strong></a>
 </li>
 <li>
-Introduction to Raspberry Pi and Python programming by <strong>Prof.&nbsp;Kartik Bulusu</strong>
+Introduction to programming
 </li>
 </ul>
 </td>
@@ -270,7 +241,7 @@ Introduction to Raspberry Pi and Python programming by <strong>Prof.&nbsp;Kartik
 Python programming using <a href="https://www.anaconda.com">Anaconda Python Distribution</a>
 </li>
 <li>
-In-class Raspberry Pi Lab (<strong>Blinking LEDs</strong>)
+In-class Raspberry Pi Lab
 </li>
 <li>
 HW 1 Assigned
@@ -302,7 +273,7 @@ Week 3 [10/20/2023]
 <td>
 <ul>
 <li>
-Very brief introduction to matrices by <strong>Prof.&nbsp;Kartik Bulusu</strong>
+Very brief introduction to matrices
 </li>
 <li>
 Introduction to Computer Grpahics by <a href="https://www.cs.seas.gwu.edu/james-hahn"><strong>Prof.&nbsp;James Hahn</strong></a> (<a href="https://icg.gwu.edu"><em>Institute of Computer Graphics</em></a>)
@@ -318,7 +289,7 @@ Slide deck by <a href="https://www.cs.seas.gwu.edu/james-hahn"><strong>Prof.&nbs
 Handling data arrays and plotting data using Python
 </li>
 <li>
-In-class Raspberry Pi Lab (Ultrasonic cacophony)
+In-class Raspberry Pi Lab
 </li>
 <li>
 <strong>HW 1 due date (Tuesday, October 17, 2023)</strong>
@@ -367,7 +338,7 @@ Week 4 [10/27/2023]
 <td>
 <ul>
 <li>
-Short walk into Python Libraries
+Short intro to Python Libraries
 </li>
 <li>
 Cryptography and Secure Computation by <a href="https://www2.seas.gwu.edu/~arkady/"><strong>Prof.&nbsp;Arkady Yerukhimovich</strong></a>
@@ -383,7 +354,7 @@ Introduction to Augmented and Virtual Reality Technologies by <a href="https://w
 Learning about dataframe using Pandas in Python
 </li>
 <li>
-In-class Raspberry Pi Lab using senseHats
+In-class Raspberry Pi Lab
 </li>
 <li>
 <strong>HW 2 due date (Saturday, October 28, 2023 5:00 PM)</strong>
@@ -446,7 +417,7 @@ Computer Vision by <a href="https://www.cs.seas.gwu.edu/robert-pless"><strong>Pr
 <td>
 <ul>
 <li>
-In-class Raspberry Pi Lab using Pi NOIR camera
+In-class Raspberry Pi Lab
 </li>
 <li>
 <strong>HW 3 due date (Friday, November 03, 2023)</strong>
@@ -503,7 +474,7 @@ A Brief Introduction to Natural Language Processing (NLP) by <a href="https://cs
 <td>
 <ul>
 <li>
-In-class Raspberry Pi Lab on Image Encryption and Decryption
+In-class Raspberry Pi Lab
 </li>
 <li>
 <strong>COVID-19 Data Analysis Project due date (Friday, November 10, 2023)</strong>
@@ -601,7 +572,7 @@ Secure Autonomous Systems by <a href="https://www.seas.gwu.edu/gabriel-parmer"><
 <td>
 <ul>
 <li>
-Choose your RPi project
+Choose your project
 </li>
 <li>
 <strong>HW 5 due date (Friday, November 17, 2023)</strong>
@@ -671,7 +642,7 @@ Role of Professional advisors in SEAS-advising Office by <strong>Lisa (Drusedum)
 <td>
 <ul>
 <li>
-Raspberry Pi Final project workshop with Mentor guidance
+Final project workshop with Mentor guidance
 </li>
 <li>
 Group Work Guidelines <img src="images/file-black.png" class="img-fluid" width="28" alt="Download button">

@@ -2,7 +2,7 @@
 title: "About"
 ---
 ## Goal 
-The goal of the course is to introduce the students to the building blocks of the IoT ecosystem with emphasis on Edge Computing. 
+The goal of the course is to introduce the students to the various areas of study and research in the field of computer science. 
 
 ## Learning objectives
 1. Hands-on knowledge of sensors and hardware and, programming with Python programming language 
@@ -23,7 +23,7 @@ Additional Learning Outcomes:
  
 
 ## Course format 
-- Lectures on the fundamentals of Raspberry Pi programming using Python programming language, sensors and automation. 
+- Lectures on the fundamentals of Python programming and some expsure to sensors and automation. 
 - Hands-on and guided activities in a laboratory setting. 
 - Guest lectures from academic experts in the field of computer science
 - Interactive quizzes and instant concept checks

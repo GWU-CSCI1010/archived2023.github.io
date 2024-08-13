@@ -68,35 +68,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -204,14 +175,13 @@ window.Quarto = {
 
 <section id="goal" class="level2">
 <h2 class="anchored" data-anchor-id="goal">Goal</h2>
-<p>The goal of the course is to introduce the students to the building blocks of the IoT ecosystem with emphasis on Edge Computing.</p>
+<p>The goal of the course is to introduce the students to the various areas of study and research in the field of computer science.</p>
 </section>
 <section id="learning-objectives" class="level2">
 <h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
 <ol type="1">
-<li>Hands-on knowledge of Raspberry Pi hardware with Python programming language</li>
-<li>Exposure to various sensors with hands-on exercises</li>
-<li>Implement innovative Raspberry Pi-based projects that interact with the physical world</li>
+<li>Hands-on knowledge of sensors and hardware and, programming with Python programming language</li>
+<li>Exposure to various fields of study and research in computer science</li>
 </ol>
 </section>
 <section id="learning-outcomes" class="level2">
@@ -219,18 +189,18 @@ window.Quarto = {
 <p>As a result of completing this course, students will be able to:</p>
 <ol type="1">
 <li>Understand the various areas of work and research in Computer Science.</li>
-<li>Perform experiments aimed at collecting and analyzing data.</li>
+<li>Perform experiments and analyzing data.</li>
 <li>Design and write Python programs.</li>
-<li>Work on an engineering-innovation group project.</li>
+<li>Work on a group project.</li>
 </ol>
-<p>Additional Learning Outcomes: - an ability to apply knowledge of computer science and mathematics - an ability to design and conduct experiments, as well as to analyze and interpret data - an ability to identify, formulate, and solve engineering problems - an ability to use the techniques, skills, and modern computing tools necessary for practice of computer science.</p>
+<p>Additional Learning Outcomes: - an ability to apply knowledge of computer science and mathematics - an ability to design and conduct experiments, as well as to analyze and interpret data - an ability to use the techniques, skills, and modern computing tools necessary for practice of computer science.</p>
 </section>
 <section id="course-format" class="level2">
 <h2 class="anchored" data-anchor-id="course-format">Course format</h2>
 <ul>
-<li>Lectures on the fundamentals of Raspberry Pi programming using Python programming language, sensors and automation.</li>
-<li><span class="math inline">\(\mu-labs\)</span>: Hands-on and guided Raspberry Pi activities in a laboratory setting.</li>
-<li>Guest lectures from academic experts and alumni in the field of computer science</li>
+<li>Lectures on the fundamentals of Python programming and some expsure to sensors and automation.</li>
+<li>Hands-on and guided activities in a laboratory setting.</li>
+<li>Guest lectures from academic experts in the field of computer science</li>
 <li>Interactive quizzes and instant concept checks</li>
 <li>Individual and/or group assignments and projects</li>
 <li>Midterm and Final projects</li>
