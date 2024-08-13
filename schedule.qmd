@@ -56,13 +56,13 @@ Sample class schedule [*week-by-week*]
         <ul>
           <li>Overview of CS1010 by **Prof. Kartik Bulusu**</li>
           <li>Introduction to Computer Science Department by [**Prof. Rebecca Hwa**](https://cs.engineering.gwu.edu/rebecca-hwa)</li>
-          <li>Introduction to Raspberry Pi and Python programming by **Prof. Kartik Bulusu**</li>
+          <li>Introduction to programming by **Prof. Kartik Bulusu**</li>
         </ul>  
       </td>
       <td>
         <ul>
           <li>Python programming using [Anaconda Python Distribution](https://www.anaconda.com)</li>
-          <li>In-class Raspberry Pi Lab (**Blinking LEDs**)</li>
+          <li>In-class Raspberry Pi Lab</li>
           <li>HW 1 Assigned</li>
         </ul>
       </td>
@@ -90,7 +90,7 @@ Sample class schedule [*week-by-week*]
       <td>
         <ul>
           <li>Handling data arrays and plotting data using Python</li> 
-          <li>In-class Raspberry Pi Lab (Ultrasonic cacophony)</li> 
+          <li>In-class Raspberry Pi Lab</li> 
           <li>**HW 1 due date (Tuesday, October 17, 2023)**</li>
           <li>HW 2 Assigned</li>
           <li>_Distribution of Scores for **HW1**_</li> 
@@ -133,7 +133,7 @@ Sample class schedule [*week-by-week*]
       <td>
         <ul>
           <li>Learning about dataframe using Pandas in Python</li>
-          <li>In-class Raspberry Pi Lab using senseHats</li>
+          <li>In-class Raspberry Pi Lab</li>
           <li>**HW 2 due date (Saturday, October 28, 2023 5:00 PM)**</li>
           <li>HW 3 Assigned</li>
           <li>_Distribution of Scores for **HW2**_</li> 
@@ -289,7 +289,7 @@ Sample class schedule [*week-by-week*]
       </td>
       <td>
         <ul>
-          <li>Choose your RPi project</li>
+          <li>Choose your project</li>
           <li>**HW 5 due date (Friday, November 17, 2023)**</li>
           <li>_Distribution of Scores for **HW5**_</li> 
             <img src="images/histograms/HW5.png" alt="HW2" class="thumbnail" onclick="displayImage('images/histograms/HW5.png')">
